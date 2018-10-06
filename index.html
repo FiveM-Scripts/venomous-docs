@@ -1,0 +1,388 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Venomous Documentation</title>
+
+    <style>
+      .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight .gh {
+  color: #999999;
+}
+.highlight .sr {
+  color: #f6aa11;
+}
+.highlight .go {
+  color: #888888;
+}
+.highlight .gp {
+  color: #555555;
+}
+.highlight .gs {
+}
+.highlight .gu {
+  color: #aaaaaa;
+}
+.highlight .nb {
+  color: #f6aa11;
+}
+.highlight .cm {
+  color: #75715e;
+}
+.highlight .cp {
+  color: #75715e;
+}
+.highlight .c1 {
+  color: #75715e;
+}
+.highlight .cs {
+  color: #75715e;
+}
+.highlight .c, .highlight .cd {
+  color: #75715e;
+}
+.highlight .err {
+  color: #960050;
+}
+.highlight .gr {
+  color: #960050;
+}
+.highlight .gt {
+  color: #960050;
+}
+.highlight .gd {
+  color: #49483e;
+}
+.highlight .gi {
+  color: #49483e;
+}
+.highlight .ge {
+  color: #49483e;
+}
+.highlight .kc {
+  color: #66d9ef;
+}
+.highlight .kd {
+  color: #66d9ef;
+}
+.highlight .kr {
+  color: #66d9ef;
+}
+.highlight .no {
+  color: #66d9ef;
+}
+.highlight .kt {
+  color: #66d9ef;
+}
+.highlight .mf {
+  color: #ae81ff;
+}
+.highlight .mh {
+  color: #ae81ff;
+}
+.highlight .il {
+  color: #ae81ff;
+}
+.highlight .mi {
+  color: #ae81ff;
+}
+.highlight .mo {
+  color: #ae81ff;
+}
+.highlight .m, .highlight .mb, .highlight .mx {
+  color: #ae81ff;
+}
+.highlight .sc {
+  color: #ae81ff;
+}
+.highlight .se {
+  color: #ae81ff;
+}
+.highlight .ss {
+  color: #ae81ff;
+}
+.highlight .sd {
+  color: #e6db74;
+}
+.highlight .s2 {
+  color: #e6db74;
+}
+.highlight .sb {
+  color: #e6db74;
+}
+.highlight .sh {
+  color: #e6db74;
+}
+.highlight .si {
+  color: #e6db74;
+}
+.highlight .sx {
+  color: #e6db74;
+}
+.highlight .s1 {
+  color: #e6db74;
+}
+.highlight .s {
+  color: #e6db74;
+}
+.highlight .na {
+  color: #a6e22e;
+}
+.highlight .nc {
+  color: #a6e22e;
+}
+.highlight .nd {
+  color: #a6e22e;
+}
+.highlight .ne {
+  color: #a6e22e;
+}
+.highlight .nf {
+  color: #a6e22e;
+}
+.highlight .vc {
+  color: #ffffff;
+}
+.highlight .nn {
+  color: #ffffff;
+}
+.highlight .nl {
+  color: #ffffff;
+}
+.highlight .ni {
+  color: #ffffff;
+}
+.highlight .bp {
+  color: #ffffff;
+}
+.highlight .vg {
+  color: #ffffff;
+}
+.highlight .vi {
+  color: #ffffff;
+}
+.highlight .nv {
+  color: #ffffff;
+}
+.highlight .w {
+  color: #ffffff;
+}
+.highlight {
+  color: #ffffff;
+}
+.highlight .n, .highlight .py, .highlight .nx {
+  color: #ffffff;
+}
+.highlight .ow {
+  color: #f92672;
+}
+.highlight .nt {
+  color: #f92672;
+}
+.highlight .k, .highlight .kv {
+  color: #f92672;
+}
+.highlight .kn {
+  color: #f92672;
+}
+.highlight .kp {
+  color: #f92672;
+}
+.highlight .o {
+  color: #f92672;
+}
+    </style>
+    <link href="stylesheets/screen.css" rel="stylesheet" media="screen" />
+    <link href="stylesheets/print.css" rel="stylesheet" media="print" />
+      <script src="javascripts/all.js"></script>
+  </head>
+
+  <body class="index" data-languages="[&quot;lua&quot;,&quot;csharp&quot;]">
+    <a href="#" id="nav-button">
+      <span>
+        NAV
+        <img src="images/navbar.png" alt="Navbar" />
+      </span>
+    </a>
+    <div class="toc-wrapper">      
+        <div class="lang-selector">
+              <a href="#" data-language-name="lua">lua</a>
+              <a href="#" data-language-name="csharp">csharp</a>
+        </div>
+        <div class="search">
+          <input type="text" class="search" id="input-search" placeholder="Search">
+        </div>
+        <ul class="search-results"></ul>
+      <ul id="toc" class="toc-list-h1">
+          <li>
+            <a href="#introduction" class="toc-h1 toc-link" data-title="Introduction">Introduction</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#introduction-2" class="toc-h2 toc-link" data-title="Introduction">Introduction</a>
+                  </li>
+                  <li>
+                    <a href="#features" class="toc-h2 toc-link" data-title="Features">Features</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#installation" class="toc-h1 toc-link" data-title="Installation">Installation</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#requirements" class="toc-h2 toc-link" data-title="Requirements">Requirements</a>
+                  </li>
+                  <li>
+                    <a href="#setup" class="toc-h2 toc-link" data-title="Setup">Setup</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#phone" class="toc-h1 toc-link" data-title="Phone">Phone</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#create-a-new-app" class="toc-h2 toc-link" data-title="Create a new app">Create a new app</a>
+                  </li>
+              </ul>
+          </li>
+      </ul>
+    </div>
+    <div class="page-wrapper">
+      <div class="dark-box"></div>
+      <div class="content">
+        <h1 id='introduction'>Introduction</h1><h2 id='introduction-2'>Introduction</h2>
+<p><a href="#"><img src="https://img.shields.io/badge/Version-1.0.0-brightgreen.svg" alt="Version" /></a> <a href="https://discordapp.com/invite/qnAqCEd" title="Chat on Discord"><img alt="Discord Status" src="https://discordapp.com/api/guilds/285462938691567627/widget.png"></a></p>
+
+<p>Venomous freemode is a gamemode fully written from scratch.<br>
+It&#39;s aiming for modularity by splitting parts of the gamemode into multiple independent resources.<br>
+This allows you to remove parts at your will, add custom extensions without conflicting resources and even use single parts outside of the gamemode.</p>
+<h2 id='features'>Features</h2>
+<ul>
+<li>Character creator.</li>
+<li>Default cash and bank UI.</li>
+<li>Idle kick timer.</li>
+<li>Interaction menu.</li>
+<li>Multiple Missions.</li>
+<li>Native Phone.</li>
+<li>Player XP and ranking.</li>
+</ul>
+<h1 id='installation'>Installation</h1><h2 id='requirements'>Requirements</h2>
+<p>Venomous uses some additional resources before it can start:</p>
+
+<ul>
+<li><a href="https://github.com/GHMatti/ghmattimysql#install">ghmattimysql</a></li>
+<li><a href="https://dev.mysql.com/downloads/mysql/">MySQL Community Server</a></li>
+<li><a href="https://github.com/FrazzIe/NativeUILua">NativeUI</a> </li>
+</ul>
+
+<aside class="notice">
+Make sure that <code>all</code> resources are installed before setting up venomous freemode.
+</aside>
+<h2 id='setup'>Setup</h2>
+<blockquote>
+<p>Add <code>exec venomous.cfg</code> to <code>server.cfg</code> below nested configs:</p>
+</blockquote>
+<pre class="highlight lua tab-lua"><code><span class="n">endpoint_add_tcp</span> <span class="s2">"0.0.0.0:30120"</span>
+<span class="n">endpoint_add_udp</span> <span class="s2">"0.0.0.0:30120"</span>
+
+<span class="n">set</span> <span class="n">mysql_connection_string</span> <span class="s2">"mysql://mysqluser:password@localhost/database?dateStrings=true"</span>
+
+<span class="n">start</span> <span class="n">mapmanager</span>
+<span class="n">start</span> <span class="n">spawnmanager</span>
+<span class="n">start</span> <span class="n">sessionmanager</span>
+<span class="n">start</span> <span class="n">fivem</span>
+<span class="n">start</span> <span class="n">hardcap</span>
+<span class="n">start</span> <span class="n">rconlog</span>
+<span class="n">start</span> <span class="n">ghmattimysql</span>
+<span class="n">start</span> <span class="n">NativeUI</span>
+
+<span class="n">sv_scriptHookAllowed</span> <span class="mi">1</span>
+
+<span class="o">#</span> <span class="n">change</span> <span class="n">this</span>
+<span class="o">#</span><span class="n">rcon_password</span> <span class="n">yay</span>
+
+<span class="o">#</span> <span class="n">a</span> <span class="n">comma</span><span class="o">-</span><span class="n">separated</span> <span class="n">list</span> <span class="n">of</span> <span class="n">tags</span> <span class="k">for</span> <span class="n">your</span> <span class="n">server</span>
+<span class="o">#</span> <span class="k">for</span> <span class="n">example</span><span class="p">:</span> <span class="n">sets</span> <span class="n">tags</span> <span class="s2">"drifting, cars, racing"</span> <span class="ow">or</span> <span class="n">sets</span> <span class="n">tags</span> <span class="s2">"roleplay, military, tanks"</span>
+<span class="n">sets</span> <span class="n">tags</span> <span class="s2">"default"</span>
+
+<span class="o">#</span> <span class="n">set</span> <span class="n">an</span> <span class="n">optional</span> <span class="n">server</span> <span class="n">info</span> <span class="ow">and</span> <span class="n">connecting</span> <span class="n">banner</span> <span class="n">image</span> <span class="n">url</span><span class="p">.</span>
+<span class="o">#</span> <span class="n">size</span> <span class="n">doesn</span><span class="s1">'t matter, any banner sized image will be fine.
+#sets banner_detail "http://url.to/image.png"
+#sets banner_connecting "http://url.to/image.png"
+
+sv_hostname "My new FXServer!"
+
+# nested configs!
+exec venomous.cfg
+
+</span></code></pre>
+<blockquote>
+<p>Save the changes and start your server.</p>
+</blockquote>
+
+<ul>
+<li>Download or clone the gamemode.</li>
+<li><strong>Copy</strong> all folders to your <code>resources</code> folder.</li>
+<li><strong>Copy</strong> the <code>venomous.cfg</code> to the same folder as your <code>server.cfg</code> (in most cases this is <strong>server-data/</strong> or <strong>cfx-server-data/</strong>).</li>
+<li>Add <code>exec venomous.cfg</code> to your <code>server.cfg</code> look at the example on the right.</li>
+<li>Edit the <code>venomous.cfg</code> to your liking.</li>
+</ul>
+<h1 id='phone'>Phone</h1><h2 id='create-a-new-app'>Create a new app</h2><pre class="highlight lua tab-lua"><code><span class="n">AppTest</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="n">AppName</span> <span class="o">=</span> <span class="s2">"Hello World"</span><span class="p">,</span>
+    <span class="n">AppIcon</span> <span class="o">=</span> <span class="mi">13</span><span class="p">,</span>
+    <span class="n">OverrideBack</span> <span class="o">=</span> <span class="kc">true</span> 
+<span class="p">}</span>
+
+<span class="k">function</span> <span class="nc">AppTest</span><span class="p">.</span><span class="nf">Init</span><span class="p">(</span><span class="n">phoneScaleform</span><span class="p">)</span>
+    <span class="c1">-- Called on app start</span>
+<span class="k">end</span>
+
+<span class="k">function</span> <span class="nc">AppTest</span><span class="p">.</span><span class="nf">Tick</span><span class="p">()</span>
+    <span class="c1">-- Called every tick</span>
+<span class="k">end</span>
+
+<span class="k">function</span> <span class="nc">AppTest</span><span class="p">.</span><span class="nf">Kill</span><span class="p">()</span>
+    <span class="c1">-- Called on app kill</span>
+<span class="k">end</span>
+
+<span class="n">AddEventHandler</span><span class="p">(</span><span class="s2">"vf_phone:setup"</span><span class="p">,</span> <span class="k">function</span><span class="p">()</span>
+    <span class="c1">-- Add the app by passing the AppTest table</span>
+    <span class="n">TriggerEvent</span><span class="p">(</span><span class="s2">"vf_phone:addApp"</span><span class="p">,</span> <span class="n">AppTest</span><span class="p">)</span>
+<span class="k">end</span><span class="p">)</span>
+
+</code></pre>
+<p>Call and pass a table with all the info to the vf_phone:addApp event to externally add a new app to the phone.</p>
+
+<table><thead>
+<tr>
+<th>Params</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>AppName</td>
+<td>The name of the application.</td>
+</tr>
+<tr>
+<td>AppName</td>
+<td>The icon to be shown on the home screen.</td>
+</tr>
+<tr>
+<td>OverrideBack</td>
+<td>Override backspace killing the app (useful for apps with sub-menus)</td>
+</tr>
+</tbody></table>
+
+      </div>
+      <div class="dark-box">
+          <div class="lang-selector">
+                <a href="#" data-language-name="lua">lua</a>
+                <a href="#" data-language-name="csharp">csharp</a>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
